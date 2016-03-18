@@ -1,0 +1,216 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="6dip">
+
+    <TextView
+        android:id="@+id/companyNameT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company Name"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/companyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/companyAddressT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company  Address"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/companyAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/companyRegistrationNumberT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company Registration Number"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/companyRegistrationNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/yearOfInceptionT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year Of Inception"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/yearOfInception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/revenueT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Revenue"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/revenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/netProfitAnnualT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Net Profit Annual"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/netProfitAnnual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/numberOfEmployeesT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Of Employees"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/numberOfEmployees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/businessDomainAreaT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Domain Area"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/businessDomainArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/businessWebsiteT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Website"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/businessWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/businessAchievementsT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Achievements"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/businessAchievements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/partnershipInfoT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Partnership Info"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/partnershipInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/gapsBetweenBusinessesT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gaps Between Businesses"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/gapsBetweenBusinesses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/productNameT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/serviceNameT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service Name"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/serviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+</LinearLayout>
+
+
